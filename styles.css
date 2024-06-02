@@ -83,13 +83,6 @@ a, .subtext {
     justify-content: center;
 }
 
-.info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 52px;
-}
-
 .title {
     margin-top: 30px;
     text-align: center;
@@ -103,6 +96,8 @@ a, .subtext {
     justify-content: center;
     align-items: center;
     gap: 52px;
+
+    margin-bottom: 60px;
 }
 
 .img {
@@ -122,9 +117,28 @@ a, .subtext {
     text-align: center;
     text-wrap: wrap;
     padding: 8px;
+
+    color: #3f3f3f;
 }
 
 .one, .two, .three, .four {
-    height: 200px;
+    display: flex;
+    flex-direction: column;
     width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+
+    padding: 60px;
+}
+
+.quo {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
 }
