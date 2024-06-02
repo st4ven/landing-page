@@ -13,8 +13,11 @@ body {
     align-items: center;
 }
 
+.hero {
+    height: 450px;
+}
 .header {
-    padding: 7px;
+    padding: 10px;
 }
 
 .logo {
@@ -45,6 +48,7 @@ a {
 .head {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 8px;
 }
 
 .logo, .head, .image, .button {
@@ -62,7 +66,9 @@ a, .subtext {
     align-items: center;
     background-color: #6a6a6a;
 
-    padding: 80px 100px;
+    height: 175px;
+    padding: 30px;
+    width: 450px;
     margin: 50px;
 }
 
@@ -81,10 +87,12 @@ a, .subtext {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    width: 400px;
 }
 
 .title {
-    margin-top: 30px;
+    margin: 40px;
     text-align: center;
     font-size: 36px;
     color: #1F2937;
@@ -97,7 +105,7 @@ a, .subtext {
     align-items: center;
     gap: 52px;
 
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .img {
@@ -134,11 +142,71 @@ a, .subtext {
     align-items: center;
     background-color: #E5E7EB;
 
-    padding: 60px;
+    padding: 70px;
 }
 
 .quo {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 100;
     font-style: italic;
+
+    width: 40%;
+}
+
+.thor {
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+    font-weight: 700;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    margin: 50px;
+}
+
+.callbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 50px;
+    height: 60px;
+    width: 950px;
+}
+
+.call2action {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.subhead {
+    color: #E5E7EB;
+}
+
+.s-button {
+    cursor: pointer;
+    background-color: #3882F6;
+    text-align: center;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
 }
